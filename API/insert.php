@@ -1,6 +1,6 @@
 <?php 
 require('connect.php');
-require('utility/checkLate.php');
+require('checkLate.php');
 
 $password = $_POST['password'];
 $eid = $_POST['eid'];
